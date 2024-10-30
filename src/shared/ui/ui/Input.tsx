@@ -1,8 +1,8 @@
 import { forwardRef, HTMLAttributes } from "react";
-import * as DialogPrimitive from "@radix-ui/react-dialog";
 
 interface CardProps extends HTMLAttributes<HTMLDivElement> {
     className: string;
+    type:string;
   }
 
 // 입력 컴포넌트
